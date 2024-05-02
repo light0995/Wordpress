@@ -223,3 +223,45 @@ h2.title {
   padding: 86px 0 79px 0;
   background: url('./img/bg/second_bg.png') center center/cover no-repeat;
 }
+
+
+.finish .finish_wrapper {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.finish .finish_descr {
+  color: #fff;
+}
+
+
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 100%;
+}
+
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+.bonus {
+  min-height: 631px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
