@@ -123,7 +123,7 @@ h2.title {
   padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
   color: #252525;
   font-family: Roboto;
   font-size: 30px;
@@ -133,7 +133,7 @@ h2.title {
   text-align: center;
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider {
   height: 4px;
   width: 217px;
   background-color: #f9bf3b;
