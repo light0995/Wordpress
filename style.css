@@ -79,7 +79,8 @@ h2.title {
   text-transform: uppercase;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -347,9 +348,10 @@ h2.title {
 }
 
 .support {
+  padding-top: 30px;
   color: #888888;
   font-family: Roboto;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 21px;
   text-align: center;
@@ -362,3 +364,101 @@ h2.title {
   text-decoration-thickness: 0.04rem;
 }
 
+.support .confidential {
+  margin-left: 10px;
+}
+
+.support .call {
+  display: block;
+  margin-top: 10px;
+}
+
+.gift {
+  min-height: 628px;
+  padding: 86px 0 87px 0;
+  background-color: #efefef;
+}
+
+.gift .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift .gift_text {
+  margin-top: 42px;
+  color: #252525;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+}
+
+.first {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+
+.first .first_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first .first_text {
+  margin-top: 37px;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first .date {
+  margin-top: 30px;
+  color: #299cbd;
+  font-family: "Roboto - black";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first .first_subtitle {
+  margin-top: 25px;
+  color: #4a4a4a;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+
+.info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;  
+  text-decoration: none;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-underline-position: under;
+}
